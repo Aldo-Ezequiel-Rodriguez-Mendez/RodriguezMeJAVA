@@ -84,7 +84,7 @@ public class VentanaFibonacci extends JFrame {
 		JButton btnMostrarSerie = new JButton("Mostrar serie");
 		btnMostrarSerie.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				int intPrimerNumero = 0, intIteraciones = 0, intSegundoNumero = 0, intSuma = 0, i = 1;
+				int intPrimerNumero = 0, intIteraciones = 0, intSegundoNumero = 0, intSuma = 0, i = 0;
 				
 				intPrimerNumero = Integer.parseInt(txtNumeroInicial.getText());
 				intIteraciones = Integer.parseInt(txtNumeroDeIteraciones.getText());
